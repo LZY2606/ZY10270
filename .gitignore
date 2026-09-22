@@ -26,6 +26,9 @@ Pods/
 .env
 .env.*
 *.log
+# 运行时数据库（启动时自动建库迁移）
+data/*.db
+data/*.db-journal
 coverage/
 .coverage
 .nyc_output/
